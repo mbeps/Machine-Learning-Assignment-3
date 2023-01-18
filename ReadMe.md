@@ -63,3 +63,9 @@ There are several ways to get extra marks (at most 10%) that will be added to yo
 ## Unusual features of `scikit-learn`
 - When using the method decision_function in SVC please avoid applying it to one test sample; it may give wrong results. It is safe to apply it to your whole test set at once.
 - `GridSearchCV` runs only on one thread by default. If you set the variable `n_jobs = -1` in GridSearchCV then it allows the function to run on all threads of your CPU (`n_jobs = -2` runs on all but one thread etc.). It may improve the run-time considerably.
+
+# Feedback
+- **Grade:** A+
+- **Comments:** 
+   - Q1-6,8: complete.
+   - Q7: calibration curves aren't convincing to confirm the validity.
